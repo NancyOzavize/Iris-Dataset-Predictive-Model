@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 
 
-model = joblib.load('Iris dataset predictive model.pkl')
+model = joblib.load('deploy/Iris dataset predictive model.pkl')
 st.title('Iris Flower Predictor')
 
 sepal_length = st.number_input('Sepal Length')
